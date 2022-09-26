@@ -204,10 +204,7 @@ body {
 
 .special-list {
   display: flex;
-}
-
-.special-item:not(:last-child) {
-  margin-right: 30px;
+  gap: 30px;
 }
 
 .special-title {
@@ -251,19 +248,19 @@ body {
 /* Team */
 
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--team-background);
 }
 
 .team-title {
   margin-bottom: 50px;
-  padding-top: 94px;
 
   color: var(--top-color);
 }
 
 .team-list {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .team-item {
@@ -380,7 +377,7 @@ body {
 
 .portfolio-list-filter {
   display: flex;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 
@@ -422,21 +419,10 @@ body {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 30px;
 }
 
 .portfolio-item {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #eeeeee;
-
-  border-right-width: 1px;
-  border-right-style: solid;
-  border-right-color: #eeeeee;
-
-  border-left-width: 1px;
-  border-left-style: solid;
-  border-left-color: #eeeeee;
 }
 
 .portfolio-block {
@@ -444,7 +430,6 @@ body {
 }
 
 .portfolio-title {
-  margin-top: 20px;
   margin-bottom: 4px;
 
   font-weight: 700;
@@ -455,8 +440,6 @@ body {
 }
 
 .portfolio-text {
-  padding-bottom: 20px;
-
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
